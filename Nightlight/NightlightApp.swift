@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct NightlightApp: App {
+    
+    @ObservedObject private var lightData = LightData()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(nightLight: $lightData.nightLight)
         }
     }
 }
