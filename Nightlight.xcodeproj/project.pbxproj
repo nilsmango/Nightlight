@@ -12,10 +12,12 @@
 		7836DC5B295C7E65000E270A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7836DC5A295C7E65000E270A /* Assets.xcassets */; };
 		7836DC5F295C7E65000E270A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7836DC5E295C7E65000E270A /* Preview Assets.xcassets */; };
 		7836DC68295D9EF1000E270A /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836DC67295D9EF1000E270A /* OptionsView.swift */; };
-		7836DC6B295D9F41000E270A /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836DC6A295D9F41000E270A /* Light.swift */; };
+		7836DC6B295D9F41000E270A /* Light + LightColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836DC6A295D9F41000E270A /* Light + LightColor.swift */; };
 		7836DC6D295EF58A000E270A /* LightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836DC6C295EF58A000E270A /* LightData.swift */; };
 		7836DC6F295F1AAF000E270A /* NightLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836DC6E295F1AAF000E270A /* NightLight.swift */; };
-		7836DC71295F2A42000E270A /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836DC70295F2A42000E270A /* BackgroundView.swift */; };
+		7836DC71295F2A42000E270A /* SingleColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836DC70295F2A42000E270A /* SingleColorView.swift */; };
+		78B435C629632910009DDB97 /* ExperimentalColorShifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B435C529632910009DDB97 /* ExperimentalColorShifts.swift */; };
+		78B435C829635F2C009DDB97 /* colorChangeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B435C729635F2C009DDB97 /* colorChangeTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +28,12 @@
 		7836DC5C295C7E65000E270A /* Nightlight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nightlight.entitlements; sourceTree = "<group>"; };
 		7836DC5E295C7E65000E270A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7836DC67295D9EF1000E270A /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
-		7836DC6A295D9F41000E270A /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		7836DC6A295D9F41000E270A /* Light + LightColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Light + LightColor.swift"; sourceTree = "<group>"; };
 		7836DC6C295EF58A000E270A /* LightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightData.swift; sourceTree = "<group>"; };
 		7836DC6E295F1AAF000E270A /* NightLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightLight.swift; sourceTree = "<group>"; };
-		7836DC70295F2A42000E270A /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		7836DC70295F2A42000E270A /* SingleColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleColorView.swift; sourceTree = "<group>"; };
+		78B435C529632910009DDB97 /* ExperimentalColorShifts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentalColorShifts.swift; sourceTree = "<group>"; };
+		78B435C729635F2C009DDB97 /* colorChangeTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorChangeTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,8 @@
 				7836DC56295C7E64000E270A /* NightlightApp.swift */,
 				7836DC58295C7E64000E270A /* ContentView.swift */,
 				7836DC67295D9EF1000E270A /* OptionsView.swift */,
-				7836DC70295F2A42000E270A /* BackgroundView.swift */,
+				7836DC70295F2A42000E270A /* SingleColorView.swift */,
+				78B435C529632910009DDB97 /* ExperimentalColorShifts.swift */,
 				7836DC69295D9F21000E270A /* Model */,
 				7836DC5A295C7E65000E270A /* Assets.xcassets */,
 				7836DC5C295C7E65000E270A /* Nightlight.entitlements */,
@@ -85,9 +90,10 @@
 		7836DC69295D9F21000E270A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7836DC6A295D9F41000E270A /* Light.swift */,
+				7836DC6A295D9F41000E270A /* Light + LightColor.swift */,
 				7836DC6C295EF58A000E270A /* LightData.swift */,
 				7836DC6E295F1AAF000E270A /* NightLight.swift */,
+				78B435C729635F2C009DDB97 /* colorChangeTimer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,11 +170,13 @@
 			files = (
 				7836DC6D295EF58A000E270A /* LightData.swift in Sources */,
 				7836DC6F295F1AAF000E270A /* NightLight.swift in Sources */,
-				7836DC6B295D9F41000E270A /* Light.swift in Sources */,
-				7836DC71295F2A42000E270A /* BackgroundView.swift in Sources */,
+				7836DC6B295D9F41000E270A /* Light + LightColor.swift in Sources */,
+				7836DC71295F2A42000E270A /* SingleColorView.swift in Sources */,
 				7836DC59295C7E64000E270A /* ContentView.swift in Sources */,
 				7836DC57295C7E64000E270A /* NightlightApp.swift in Sources */,
+				78B435C629632910009DDB97 /* ExperimentalColorShifts.swift in Sources */,
 				7836DC68295D9EF1000E270A /* OptionsView.swift in Sources */,
+				78B435C829635F2C009DDB97 /* colorChangeTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
