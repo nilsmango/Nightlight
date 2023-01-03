@@ -17,7 +17,8 @@
 		7836DC6F295F1AAF000E270A /* NightLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836DC6E295F1AAF000E270A /* NightLight.swift */; };
 		7836DC71295F2A42000E270A /* SingleColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836DC70295F2A42000E270A /* SingleColorView.swift */; };
 		78B435C629632910009DDB97 /* ExperimentalColorShifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B435C529632910009DDB97 /* ExperimentalColorShifts.swift */; };
-		78B435C829635F2C009DDB97 /* colorChangeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B435C729635F2C009DDB97 /* colorChangeTimer.swift */; };
+		78B435C829635F2C009DDB97 /* ColorChangeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B435C729635F2C009DDB97 /* ColorChangeTimer.swift */; };
+		78B435CC29646565009DDB97 /* FlickerTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B435CB29646565009DDB97 /* FlickerTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +34,8 @@
 		7836DC6E295F1AAF000E270A /* NightLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightLight.swift; sourceTree = "<group>"; };
 		7836DC70295F2A42000E270A /* SingleColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleColorView.swift; sourceTree = "<group>"; };
 		78B435C529632910009DDB97 /* ExperimentalColorShifts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentalColorShifts.swift; sourceTree = "<group>"; };
-		78B435C729635F2C009DDB97 /* colorChangeTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorChangeTimer.swift; sourceTree = "<group>"; };
+		78B435C729635F2C009DDB97 /* ColorChangeTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeTimer.swift; sourceTree = "<group>"; };
+		78B435CB29646565009DDB97 /* FlickerTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +95,8 @@
 				7836DC6A295D9F41000E270A /* Light + LightColor.swift */,
 				7836DC6C295EF58A000E270A /* LightData.swift */,
 				7836DC6E295F1AAF000E270A /* NightLight.swift */,
-				78B435C729635F2C009DDB97 /* colorChangeTimer.swift */,
+				78B435C729635F2C009DDB97 /* ColorChangeTimer.swift */,
+				78B435CB29646565009DDB97 /* FlickerTimer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,7 +179,8 @@
 				7836DC57295C7E64000E270A /* NightlightApp.swift in Sources */,
 				78B435C629632910009DDB97 /* ExperimentalColorShifts.swift in Sources */,
 				7836DC68295D9EF1000E270A /* OptionsView.swift in Sources */,
-				78B435C829635F2C009DDB97 /* colorChangeTimer.swift in Sources */,
+				78B435CC29646565009DDB97 /* FlickerTimer.swift in Sources */,
+				78B435C829635F2C009DDB97 /* ColorChangeTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

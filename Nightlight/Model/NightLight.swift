@@ -10,6 +10,8 @@ import SwiftUI
 
 struct NightLight {
     var currentLight: Light
+
+    var flicker: Bool
     
     var singleLightColor: LightColor
     var singleLightColorHistory: [LightColor]
