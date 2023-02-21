@@ -10,7 +10,7 @@ import SwiftUI
 
 
 enum Light: CaseIterable, Identifiable {
-    case singleColor, candleLight, fire, colorChange
+    case singleColor, colorChange, lavaLamp, rain, fire, lightMotion, lightMotion2, sun
     var id: Self { self }
     
     
@@ -19,8 +19,8 @@ enum Light: CaseIterable, Identifiable {
         case .singleColor:
             return "Single Color"
             
-        case .candleLight:
-            return "Candle Light"
+        case .lavaLamp:
+            return "Lava Lamp"
             
         case .fire:
             return "Fire"
@@ -28,6 +28,17 @@ enum Light: CaseIterable, Identifiable {
         case .colorChange:
             return "Color Change"
             
+        case .rain:
+            return "Rain"
+            
+        case .lightMotion:
+            return "Light Motion"
+            
+        case .lightMotion2:
+            return "Light Motion 2"
+            
+        case .sun:
+            return "Sun"
         }
     }
     

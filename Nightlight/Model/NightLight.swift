@@ -22,6 +22,8 @@ struct NightLight {
     var randomColorChange: Bool
     var completeRandom: Bool
     
+    var sunIsActive: Bool
+    var sunStrength: Int
     
     mutating func updateHistory() {
         if singleLightColorHistory.last?.color != singleLightColor.color {

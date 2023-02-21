@@ -164,6 +164,12 @@ struct OptionsView: View {
                                 
                             }
                         }
+                        .onMove { indexSet, offset in
+                            nightLight.colorChangeHistory.move(fromOffsets: indexSet, toOffset: offset)
+                        }
+                        .onDelete { indexSet in
+                            nightLight.colorChangeHistory.remove(atOffsets: indexSet)
+                        }
                     }
                 }
                 
@@ -171,6 +177,22 @@ struct OptionsView: View {
                 
                 
                 
+                
+            }
+            
+            // SUN
+            
+            if nightLight.currentLight == .sun {
+                
+                Section(header: Text("Sun Options")) {
+                    Toggle("Sun active", isOn: $nightLight.sunIsActive)
+                    if nightLight.sunIsActive {
+                        VStack {
+                            Text("Sun Strength: \(nightLight.sunStrength)")
+                            Slider(value: .convert(from: $nightLight.sunStrength), in: 0...400, step: 10)
+                        }
+                    }
+                }
                 
             }
         }
@@ -185,6 +207,6 @@ struct OptionsView: View {
 
 struct OptionsView_Previews: PreviewProvider {
     static var previews: some View {
-        OptionsView(nightLight: .constant(NightLight(currentLight: .colorChange, flicker: false, singleLightColor: LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.2), id: UUID()), singleLightColorHistory: [LightColor(color: Color(.sRGB, red: 0.98, green: 0.2, blue: 0.2), id: UUID())], colorChangeColors: [LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.2), id: UUID()), LightColor(color: Color(.sRGB, red: 0.3, green: 0.5, blue: 0.5), id: UUID()), LightColor(color: Color(.sRGB, red: 0.92, green: 0.2, blue: 0.3), id: UUID())], colorChangeHistory: [[LightColor(color: Color(.sRGB, red: 0.8, green: 0.9, blue: 0.5), id: UUID()), LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.6), id: UUID()), LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.6), id: UUID()), LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.6), id: UUID())]], colorChangeSpeed: 1, randomColorChange: false, completeRandom: false)))
+        OptionsView(nightLight: .constant(NightLight(currentLight: .sun, flicker: false, singleLightColor: LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.2), id: UUID()), singleLightColorHistory: [LightColor(color: Color(.sRGB, red: 0.98, green: 0.2, blue: 0.2), id: UUID())], colorChangeColors: [LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.2), id: UUID()), LightColor(color: Color(.sRGB, red: 0.3, green: 0.5, blue: 0.5), id: UUID()), LightColor(color: Color(.sRGB, red: 0.92, green: 0.2, blue: 0.3), id: UUID())], colorChangeHistory: [[LightColor(color: Color(.sRGB, red: 0.8, green: 0.9, blue: 0.5), id: UUID()), LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.6), id: UUID()), LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.6), id: UUID()), LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.6), id: UUID())]], colorChangeSpeed: 1, randomColorChange: false, completeRandom: false, sunIsActive: true, sunStrength: 50)))
     }
 }

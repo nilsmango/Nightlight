@@ -40,12 +40,25 @@ struct ContentView: View {
                             }
                           
 
-                case .candleLight:
-                    SingleColorView(color: nightLight.singleLightColor.color, opacity: 1.0)
-                        .ignoresSafeArea()
+                case .rain:
+                    RainView()
+                
                 case .fire:
                     SingleColorView(color: nightLight.singleLightColor.color, opacity: 1.0)
                         .ignoresSafeArea()
+               
+                case .lavaLamp:
+                    LavaLamp()
+                        
+                    
+                case .lightMotion:
+                    LightMotion()
+                    
+                case .sun:
+                    SunView(sunActive: nightLight.sunIsActive, sunStrength: nightLight.sunStrength)
+                    
+                case .lightMotion2:
+                    LightMotionCopy()
                 }
             
             
@@ -88,6 +101,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(nightLight: .constant(NightLight(currentLight: .singleColor, flicker: true, singleLightColor: LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.2), id: UUID()), singleLightColorHistory: [LightColor(color: Color(.sRGB, red: 0.98, green: 0.2, blue: 0.2), id: UUID())], colorChangeColors: [LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.2), id: UUID()), LightColor(color: Color(.sRGB, red: 0.3, green: 0.5, blue: 0.5), id: UUID())], colorChangeHistory: [[LightColor(color: Color(.sRGB, red: 0.8, green: 0.9, blue: 0.5), id: UUID()), LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.6), id: UUID())]], colorChangeSpeed: 1, randomColorChange: false, completeRandom: false)))
+        ContentView(nightLight: .constant(NightLight(currentLight: .singleColor, flicker: true, singleLightColor: LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.2), id: UUID()), singleLightColorHistory: [LightColor(color: Color(.sRGB, red: 0.98, green: 0.2, blue: 0.2), id: UUID())], colorChangeColors: [LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.2), id: UUID()), LightColor(color: Color(.sRGB, red: 0.3, green: 0.5, blue: 0.5), id: UUID())], colorChangeHistory: [[LightColor(color: Color(.sRGB, red: 0.8, green: 0.9, blue: 0.5), id: UUID()), LightColor(color: Color(.sRGB, red: 0.98, green: 0.9, blue: 0.6), id: UUID())]], colorChangeSpeed: 1, randomColorChange: false, completeRandom: false, sunIsActive: true, sunStrength: 50)))
     }
 }

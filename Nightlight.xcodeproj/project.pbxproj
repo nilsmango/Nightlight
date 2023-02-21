@@ -16,9 +16,31 @@
 		7836DC6D295EF58A000E270A /* LightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836DC6C295EF58A000E270A /* LightData.swift */; };
 		7836DC6F295F1AAF000E270A /* NightLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836DC6E295F1AAF000E270A /* NightLight.swift */; };
 		7836DC71295F2A42000E270A /* SingleColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836DC70295F2A42000E270A /* SingleColorView.swift */; };
+		783BFCB329676D710080887E /* LavaLamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BFCB229676D710080887E /* LavaLamp.swift */; };
+		788C9AF3296576C500A1A7E2 /* RainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C9AF2296576C500A1A7E2 /* RainView.swift */; };
+		788C9AF72965778100A1A7E2 /* RainFall.sks in Resources */ = {isa = PBXBuildFile; fileRef = 788C9AF52965778100A1A7E2 /* RainFall.sks */; };
+		788C9AFC29657AC700A1A7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788C9AFA29657AC700A1A7E2 /* Assets.xcassets */; };
+		788C9AFE2965837600A1A7E2 /* RainFallLanding.sks in Resources */ = {isa = PBXBuildFile; fileRef = 788C9AFD2965837600A1A7E2 /* RainFallLanding.sks */; };
+		788C9B022966C84D00A1A7E2 /* LightMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C9B012966C84D00A1A7E2 /* LightMotion.swift */; };
+		788C9B042966C8A500A1A7E2 /* LightParticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C9B032966C8A500A1A7E2 /* LightParticle.swift */; };
+		788C9B062966CDE300A1A7E2 /* LightParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C9B052966CDE300A1A7E2 /* LightParticleSystem.swift */; };
+		788C9B082966E02B00A1A7E2 /* LightMotionCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C9B072966E02B00A1A7E2 /* LightMotionCopy.swift */; };
+		78B1335C29A0DDC300CE924F /* BetterStarMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1335B29A0DDC300CE924F /* BetterStarMotion.swift */; };
+		78B1335E29A0E13100CE924F /* BetterStarParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1335D29A0E13100CE924F /* BetterStarParticleSystem.swift */; };
+		78B1336029A0E1B600CE924F /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1335F29A0E1B600CE924F /* Star.swift */; };
+		78B1336229A3BF0B00CE924F /* BeautifulLights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1336129A3BF0B00CE924F /* BeautifulLights.swift */; };
 		78B435C629632910009DDB97 /* ExperimentalColorShifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B435C529632910009DDB97 /* ExperimentalColorShifts.swift */; };
 		78B435C829635F2C009DDB97 /* ColorChangeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B435C729635F2C009DDB97 /* ColorChangeTimer.swift */; };
 		78B435CC29646565009DDB97 /* FlickerTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B435CB29646565009DDB97 /* FlickerTimer.swift */; };
+		78B513152968293E00FA6A2D /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78B513142968293E00FA6A2D /* Fire.sks */; };
+		78B5131B296848ED00FA6A2D /* ShootingStars.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78B5131A296848ED00FA6A2D /* ShootingStars.sks */; };
+		78B5131C29684E2B00FA6A2D /* Candle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78B513172968310700FA6A2D /* Candle.sks */; };
+		78B5131D29684E2E00FA6A2D /* FirePlace.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78B513192968367700FA6A2D /* FirePlace.sks */; };
+		78B5131E29684E3000FA6A2D /* Sun.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78B513182968323F00FA6A2D /* Sun.sks */; };
+		78B5132029684E7A00FA6A2D /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5131F29684E7A00FA6A2D /* SunView.swift */; };
+		78B5132229685FB800FA6A2D /* Extension Binding + Image Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5132129685FB800FA6A2D /* Extension Binding + Image Resize.swift */; };
+		78B5132C2969655500FA6A2D /* LavaClump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5132B2969655500FA6A2D /* LavaClump.swift */; };
+		78CB751629696B2500B4B791 /* LavaParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CB751529696B2500B4B791 /* LavaParticleSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +55,31 @@
 		7836DC6C295EF58A000E270A /* LightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightData.swift; sourceTree = "<group>"; };
 		7836DC6E295F1AAF000E270A /* NightLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightLight.swift; sourceTree = "<group>"; };
 		7836DC70295F2A42000E270A /* SingleColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleColorView.swift; sourceTree = "<group>"; };
+		783BFCB229676D710080887E /* LavaLamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaLamp.swift; sourceTree = "<group>"; };
+		788C9AF2296576C500A1A7E2 /* RainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainView.swift; sourceTree = "<group>"; };
+		788C9AF52965778100A1A7E2 /* RainFall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainFall.sks; sourceTree = "<group>"; };
+		788C9AFA29657AC700A1A7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		788C9AFD2965837600A1A7E2 /* RainFallLanding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainFallLanding.sks; sourceTree = "<group>"; };
+		788C9B012966C84D00A1A7E2 /* LightMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMotion.swift; sourceTree = "<group>"; };
+		788C9B032966C8A500A1A7E2 /* LightParticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightParticle.swift; sourceTree = "<group>"; };
+		788C9B052966CDE300A1A7E2 /* LightParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightParticleSystem.swift; sourceTree = "<group>"; };
+		788C9B072966E02B00A1A7E2 /* LightMotionCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMotionCopy.swift; sourceTree = "<group>"; };
+		78B1335B29A0DDC300CE924F /* BetterStarMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterStarMotion.swift; sourceTree = "<group>"; };
+		78B1335D29A0E13100CE924F /* BetterStarParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterStarParticleSystem.swift; sourceTree = "<group>"; };
+		78B1335F29A0E1B600CE924F /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		78B1336129A3BF0B00CE924F /* BeautifulLights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulLights.swift; sourceTree = "<group>"; };
 		78B435C529632910009DDB97 /* ExperimentalColorShifts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentalColorShifts.swift; sourceTree = "<group>"; };
 		78B435C729635F2C009DDB97 /* ColorChangeTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeTimer.swift; sourceTree = "<group>"; };
 		78B435CB29646565009DDB97 /* FlickerTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerTimer.swift; sourceTree = "<group>"; };
+		78B513142968293E00FA6A2D /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		78B513172968310700FA6A2D /* Candle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Candle.sks; sourceTree = "<group>"; };
+		78B513182968323F00FA6A2D /* Sun.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Sun.sks; sourceTree = "<group>"; };
+		78B513192968367700FA6A2D /* FirePlace.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FirePlace.sks; sourceTree = "<group>"; };
+		78B5131A296848ED00FA6A2D /* ShootingStars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShootingStars.sks; sourceTree = "<group>"; };
+		78B5131F29684E7A00FA6A2D /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
+		78B5132129685FB800FA6A2D /* Extension Binding + Image Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Binding + Image Resize.swift"; sourceTree = "<group>"; };
+		78B5132B2969655500FA6A2D /* LavaClump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaClump.swift; sourceTree = "<group>"; };
+		78CB751529696B2500B4B791 /* LavaParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaParticleSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +112,19 @@
 		7836DC55295C7E64000E270A /* Nightlight */ = {
 			isa = PBXGroup;
 			children = (
+				788C9AF42965773D00A1A7E2 /* SpriteFiles */,
 				7836DC56295C7E64000E270A /* NightlightApp.swift */,
 				7836DC58295C7E64000E270A /* ContentView.swift */,
 				7836DC67295D9EF1000E270A /* OptionsView.swift */,
+				788C9AF2296576C500A1A7E2 /* RainView.swift */,
 				7836DC70295F2A42000E270A /* SingleColorView.swift */,
 				78B435C529632910009DDB97 /* ExperimentalColorShifts.swift */,
+				788C9B012966C84D00A1A7E2 /* LightMotion.swift */,
+				788C9B072966E02B00A1A7E2 /* LightMotionCopy.swift */,
+				78B5131F29684E7A00FA6A2D /* SunView.swift */,
+				78B1335B29A0DDC300CE924F /* BetterStarMotion.swift */,
+				783BFCB229676D710080887E /* LavaLamp.swift */,
+				78B1336129A3BF0B00CE924F /* BeautifulLights.swift */,
 				7836DC69295D9F21000E270A /* Model */,
 				7836DC5A295C7E65000E270A /* Assets.xcassets */,
 				7836DC5C295C7E65000E270A /* Nightlight.entitlements */,
@@ -93,12 +145,50 @@
 			isa = PBXGroup;
 			children = (
 				7836DC6A295D9F41000E270A /* Light + LightColor.swift */,
+				78B5132129685FB800FA6A2D /* Extension Binding + Image Resize.swift */,
 				7836DC6C295EF58A000E270A /* LightData.swift */,
 				7836DC6E295F1AAF000E270A /* NightLight.swift */,
 				78B435C729635F2C009DDB97 /* ColorChangeTimer.swift */,
 				78B435CB29646565009DDB97 /* FlickerTimer.swift */,
+				78CB75182969C6E500B4B791 /* Light + Star */,
+				78CB75172969C3C400B4B791 /* LavaLamp */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		788C9AF42965773D00A1A7E2 /* SpriteFiles */ = {
+			isa = PBXGroup;
+			children = (
+				788C9AF52965778100A1A7E2 /* RainFall.sks */,
+				78B513142968293E00FA6A2D /* Fire.sks */,
+				788C9AFD2965837600A1A7E2 /* RainFallLanding.sks */,
+				788C9AFA29657AC700A1A7E2 /* Assets.xcassets */,
+				78B513172968310700FA6A2D /* Candle.sks */,
+				78B513192968367700FA6A2D /* FirePlace.sks */,
+				78B513182968323F00FA6A2D /* Sun.sks */,
+				78B5131A296848ED00FA6A2D /* ShootingStars.sks */,
+			);
+			path = SpriteFiles;
+			sourceTree = "<group>";
+		};
+		78CB75172969C3C400B4B791 /* LavaLamp */ = {
+			isa = PBXGroup;
+			children = (
+				78CB751529696B2500B4B791 /* LavaParticleSystem.swift */,
+				78B5132B2969655500FA6A2D /* LavaClump.swift */,
+			);
+			path = LavaLamp;
+			sourceTree = "<group>";
+		};
+		78CB75182969C6E500B4B791 /* Light + Star */ = {
+			isa = PBXGroup;
+			children = (
+				788C9B032966C8A500A1A7E2 /* LightParticle.swift */,
+				788C9B052966CDE300A1A7E2 /* LightParticleSystem.swift */,
+				78B1335D29A0E13100CE924F /* BetterStarParticleSystem.swift */,
+				78B1335F29A0E1B600CE924F /* Star.swift */,
+			);
+			path = "Light + Star";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +249,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B5131C29684E2B00FA6A2D /* Candle.sks in Resources */,
 				7836DC5F295C7E65000E270A /* Preview Assets.xcassets in Resources */,
+				78B5131E29684E3000FA6A2D /* Sun.sks in Resources */,
+				788C9AFE2965837600A1A7E2 /* RainFallLanding.sks in Resources */,
 				7836DC5B295C7E65000E270A /* Assets.xcassets in Resources */,
+				78B513152968293E00FA6A2D /* Fire.sks in Resources */,
+				78B5131B296848ED00FA6A2D /* ShootingStars.sks in Resources */,
+				788C9AF72965778100A1A7E2 /* RainFall.sks in Resources */,
+				78B5131D29684E2E00FA6A2D /* FirePlace.sks in Resources */,
+				788C9AFC29657AC700A1A7E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,14 +270,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				7836DC6D295EF58A000E270A /* LightData.swift in Sources */,
+				788C9B062966CDE300A1A7E2 /* LightParticleSystem.swift in Sources */,
 				7836DC6F295F1AAF000E270A /* NightLight.swift in Sources */,
+				78B5132229685FB800FA6A2D /* Extension Binding + Image Resize.swift in Sources */,
+				78B1336229A3BF0B00CE924F /* BeautifulLights.swift in Sources */,
+				78B1335C29A0DDC300CE924F /* BetterStarMotion.swift in Sources */,
 				7836DC6B295D9F41000E270A /* Light + LightColor.swift in Sources */,
+				78B1335E29A0E13100CE924F /* BetterStarParticleSystem.swift in Sources */,
 				7836DC71295F2A42000E270A /* SingleColorView.swift in Sources */,
 				7836DC59295C7E64000E270A /* ContentView.swift in Sources */,
 				7836DC57295C7E64000E270A /* NightlightApp.swift in Sources */,
+				78CB751629696B2500B4B791 /* LavaParticleSystem.swift in Sources */,
+				783BFCB329676D710080887E /* LavaLamp.swift in Sources */,
+				788C9AF3296576C500A1A7E2 /* RainView.swift in Sources */,
 				78B435C629632910009DDB97 /* ExperimentalColorShifts.swift in Sources */,
+				78B5132C2969655500FA6A2D /* LavaClump.swift in Sources */,
 				7836DC68295D9EF1000E270A /* OptionsView.swift in Sources */,
+				788C9B082966E02B00A1A7E2 /* LightMotionCopy.swift in Sources */,
+				78B5132029684E7A00FA6A2D /* SunView.swift in Sources */,
 				78B435CC29646565009DDB97 /* FlickerTimer.swift in Sources */,
+				788C9B022966C84D00A1A7E2 /* LightMotion.swift in Sources */,
+				788C9B042966C8A500A1A7E2 /* LightParticle.swift in Sources */,
+				78B1336029A0E1B600CE924F /* Star.swift in Sources */,
 				78B435C829635F2C009DDB97 /* ColorChangeTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
